@@ -21,12 +21,12 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/golujha9936/AnonXMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Rahul2135/AnonXMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Shayri_ki_mahfil")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/About_Aryan_Owner")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/About_Mr_Bunny")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,14 +76,14 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/f96b19448d1a4981a010e.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/0c635e40b7b2e44eec502.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/f96b19448d1a4981a010e.jpg",
+    "https://graph.org/file/0c635e40b7b2e44eec502.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://graph.org/file/f96b19448d1a4981a010e.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/0c635e40b7b2e44eec502.jpg"
 
 GLOBAL_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
 
@@ -95,7 +95,7 @@ TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 
-SOUNCLOUD_IMG_URL = "https://graph.org/file/f96b19448d1a4981a010e.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/0c635e40b7b2e44eec502.jpg"
 
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://graph.org/file/f96b19448d1a4981a010e.jpg"
+            PING_IMG_URL = "https://graph.org/file/0c635e40b7b2e44eec502.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://graph.org/file/f96b19448d1a4981a010e.jpg"
+            START_IMG_URL = "https://graph.org/file/0c635e40b7b2e44eec502.jpg"
